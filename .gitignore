@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Database (жеке деректер)
+backend/*.db
+
+# AI модельдері (үлкен файлдар — INSTALL.bat жүктейді)
+backend/*.onnx
+
+# Студент суреттері (жеке)
+backend/faces/
+
+# Frontend build
+frontend/node_modules/
+frontend/dist/
+
+# Жүйелік файлдар
+.DS_Store
+Thumbs.db
+*.log
+
+# Debug скриптер
+backend/debug_recognition.py
+backend/check_score.py
